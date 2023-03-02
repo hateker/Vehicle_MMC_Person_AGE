@@ -1,0 +1,4 @@
+openvino==2022.3.0
+opencv-python==4.7.0.72
+fastapi==0.92
+python_multipart==0.0.6

@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input" output_port_id="input" />
+		<IR name="input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_1" output_port_id="654" />
+		<IR name="Conv_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_3" output_port_id="365" />
+		<IR name="Mul_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_4" output_port_id="657" />
+		<IR name="Conv_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_6" output_port_id="369" />
+		<IR name="Mul_6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_7" output_port_id="370" />
+		<IR name="ReduceMean_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.0.0.se.conv_reduce.weight" output_port_id="blocks.0.0.se.conv_reduce.weight" />
+		<IR name="blocks.0.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_8" output_port_id="371" />
+		<IR name="Conv_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_10" output_port_id="373" />
+		<IR name="Mul_10" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.0.0.se.conv_expand.weight" output_port_id="blocks.0.0.se.conv_expand.weight" />
+		<IR name="blocks.0.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_11" output_port_id="374" />
+		<IR name="Conv_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_12" output_port_id="375" />
+		<IR name="Sigmoid_12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_13" output_port_id="376" />
+		<IR name="Mul_13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="661" output_port_id="661" />
+		<IR name="661" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_14" output_port_id="660" />
+		<IR name="Conv_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="664" output_port_id="664" />
+		<IR name="664" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_15" output_port_id="663" />
+		<IR name="Conv_15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_17" output_port_id="382" />
+		<IR name="Mul_17" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_19" output_port_id="666" />
+		<IR name="Conv_19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_21" output_port_id="387" />
+		<IR name="Mul_21" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_22" output_port_id="388" />
+		<IR name="ReduceMean_22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.1.0.se.conv_reduce.weight" output_port_id="blocks.1.0.se.conv_reduce.weight" />
+		<IR name="blocks.1.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_23" output_port_id="389" />
+		<IR name="Conv_23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_25" output_port_id="391" />
+		<IR name="Mul_25" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.1.0.se.conv_expand.weight" output_port_id="blocks.1.0.se.conv_expand.weight" />
+		<IR name="blocks.1.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_26" output_port_id="392" />
+		<IR name="Conv_26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_27" output_port_id="393" />
+		<IR name="Sigmoid_27" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_28" output_port_id="394" />
+		<IR name="Mul_28" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="670" output_port_id="670" />
+		<IR name="670" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_29" output_port_id="669" />
+		<IR name="Conv_29" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="673" output_port_id="673" />
+		<IR name="673" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_30" output_port_id="672" />
+		<IR name="Conv_30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_32" output_port_id="400" />
+		<IR name="Mul_32" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_33" output_port_id="675" />
+		<IR name="Conv_33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_35" output_port_id="404" />
+		<IR name="Mul_35" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_36" output_port_id="405" />
+		<IR name="ReduceMean_36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.1.1.se.conv_reduce.weight" output_port_id="blocks.1.1.se.conv_reduce.weight" />
+		<IR name="blocks.1.1.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_37" output_port_id="406" />
+		<IR name="Conv_37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_39" output_port_id="408" />
+		<IR name="Mul_39" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.1.1.se.conv_expand.weight" output_port_id="blocks.1.1.se.conv_expand.weight" />
+		<IR name="blocks.1.1.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_40" output_port_id="409" />
+		<IR name="Conv_40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_41" output_port_id="410" />
+		<IR name="Sigmoid_41" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_42" output_port_id="411" />
+		<IR name="Mul_42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="679" output_port_id="679" />
+		<IR name="679" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_43" output_port_id="678" />
+		<IR name="Conv_43" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_44" output_port_id="414" />
+		<IR name="Add_44" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="682" output_port_id="682" />
+		<IR name="682" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_45" output_port_id="681" />
+		<IR name="Conv_45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_47" output_port_id="418" />
+		<IR name="Mul_47" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_49" output_port_id="684" />
+		<IR name="Conv_49" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_51" output_port_id="423" />
+		<IR name="Mul_51" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_52" output_port_id="424" />
+		<IR name="ReduceMean_52" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.2.0.se.conv_reduce.weight" output_port_id="blocks.2.0.se.conv_reduce.weight" />
+		<IR name="blocks.2.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_53" output_port_id="425" />
+		<IR name="Conv_53" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_55" output_port_id="427" />
+		<IR name="Mul_55" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.2.0.se.conv_expand.weight" output_port_id="blocks.2.0.se.conv_expand.weight" />
+		<IR name="blocks.2.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_56" output_port_id="428" />
+		<IR name="Conv_56" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_57" output_port_id="429" />
+		<IR name="Sigmoid_57" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_58" output_port_id="430" />
+		<IR name="Mul_58" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="688" output_port_id="688" />
+		<IR name="688" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_59" output_port_id="687" />
+		<IR name="Conv_59" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="691" output_port_id="691" />
+		<IR name="691" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_60" output_port_id="690" />
+		<IR name="Conv_60" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_62" output_port_id="436" />
+		<IR name="Mul_62" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_63" output_port_id="693" />
+		<IR name="Conv_63" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_65" output_port_id="440" />
+		<IR name="Mul_65" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_66" output_port_id="441" />
+		<IR name="ReduceMean_66" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.2.1.se.conv_reduce.weight" output_port_id="blocks.2.1.se.conv_reduce.weight" />
+		<IR name="blocks.2.1.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_67" output_port_id="442" />
+		<IR name="Conv_67" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_69" output_port_id="444" />
+		<IR name="Mul_69" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.2.1.se.conv_expand.weight" output_port_id="blocks.2.1.se.conv_expand.weight" />
+		<IR name="blocks.2.1.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_70" output_port_id="445" />
+		<IR name="Conv_70" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_71" output_port_id="446" />
+		<IR name="Sigmoid_71" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_72" output_port_id="447" />
+		<IR name="Mul_72" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="697" output_port_id="697" />
+		<IR name="697" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_73" output_port_id="696" />
+		<IR name="Conv_73" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_74" output_port_id="450" />
+		<IR name="Add_74" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="700" output_port_id="700" />
+		<IR name="700" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_75" output_port_id="699" />
+		<IR name="Conv_75" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_77" output_port_id="454" />
+		<IR name="Mul_77" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_79" output_port_id="702" />
+		<IR name="Conv_79" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_81" output_port_id="459" />
+		<IR name="Mul_81" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_82" output_port_id="460" />
+		<IR name="ReduceMean_82" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.3.0.se.conv_reduce.weight" output_port_id="blocks.3.0.se.conv_reduce.weight" />
+		<IR name="blocks.3.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_83" output_port_id="461" />
+		<IR name="Conv_83" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_85" output_port_id="463" />
+		<IR name="Mul_85" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.3.0.se.conv_expand.weight" output_port_id="blocks.3.0.se.conv_expand.weight" />
+		<IR name="blocks.3.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_86" output_port_id="464" />
+		<IR name="Conv_86" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_87" output_port_id="465" />
+		<IR name="Sigmoid_87" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_88" output_port_id="466" />
+		<IR name="Mul_88" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="706" output_port_id="706" />
+		<IR name="706" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_89" output_port_id="705" />
+		<IR name="Conv_89" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="709" output_port_id="709" />
+		<IR name="709" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_90" output_port_id="708" />
+		<IR name="Conv_90" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_92" output_port_id="472" />
+		<IR name="Mul_92" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_93" output_port_id="711" />
+		<IR name="Conv_93" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_95" output_port_id="476" />
+		<IR name="Mul_95" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_96" output_port_id="477" />
+		<IR name="ReduceMean_96" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.3.1.se.conv_reduce.weight" output_port_id="blocks.3.1.se.conv_reduce.weight" />
+		<IR name="blocks.3.1.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_97" output_port_id="478" />
+		<IR name="Conv_97" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_99" output_port_id="480" />
+		<IR name="Mul_99" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.3.1.se.conv_expand.weight" output_port_id="blocks.3.1.se.conv_expand.weight" />
+		<IR name="blocks.3.1.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_100" output_port_id="481" />
+		<IR name="Conv_100" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_101" output_port_id="482" />
+		<IR name="Sigmoid_101" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_102" output_port_id="483" />
+		<IR name="Mul_102" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="715" output_port_id="715" />
+		<IR name="715" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_103" output_port_id="714" />
+		<IR name="Conv_103" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_104" output_port_id="486" />
+		<IR name="Add_104" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="718" output_port_id="718" />
+		<IR name="718" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_105" output_port_id="717" />
+		<IR name="Conv_105" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_107" output_port_id="490" />
+		<IR name="Mul_107" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_108" output_port_id="720" />
+		<IR name="Conv_108" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_110" output_port_id="494" />
+		<IR name="Mul_110" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_111" output_port_id="495" />
+		<IR name="ReduceMean_111" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.3.2.se.conv_reduce.weight" output_port_id="blocks.3.2.se.conv_reduce.weight" />
+		<IR name="blocks.3.2.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_112" output_port_id="496" />
+		<IR name="Conv_112" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_114" output_port_id="498" />
+		<IR name="Mul_114" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.3.2.se.conv_expand.weight" output_port_id="blocks.3.2.se.conv_expand.weight" />
+		<IR name="blocks.3.2.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_115" output_port_id="499" />
+		<IR name="Conv_115" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_116" output_port_id="500" />
+		<IR name="Sigmoid_116" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_117" output_port_id="501" />
+		<IR name="Mul_117" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="724" output_port_id="724" />
+		<IR name="724" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_118" output_port_id="723" />
+		<IR name="Conv_118" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_119" output_port_id="504" />
+		<IR name="Add_119" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="727" output_port_id="727" />
+		<IR name="727" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_120" output_port_id="726" />
+		<IR name="Conv_120" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_122" output_port_id="508" />
+		<IR name="Mul_122" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_123" output_port_id="729" />
+		<IR name="Conv_123" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_125" output_port_id="512" />
+		<IR name="Mul_125" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_126" output_port_id="513" />
+		<IR name="ReduceMean_126" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.4.0.se.conv_reduce.weight" output_port_id="blocks.4.0.se.conv_reduce.weight" />
+		<IR name="blocks.4.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_127" output_port_id="514" />
+		<IR name="Conv_127" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_129" output_port_id="516" />
+		<IR name="Mul_129" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.4.0.se.conv_expand.weight" output_port_id="blocks.4.0.se.conv_expand.weight" />
+		<IR name="blocks.4.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_130" output_port_id="517" />
+		<IR name="Conv_130" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_131" output_port_id="518" />
+		<IR name="Sigmoid_131" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_132" output_port_id="519" />
+		<IR name="Mul_132" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="733" output_port_id="733" />
+		<IR name="733" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_133" output_port_id="732" />
+		<IR name="Conv_133" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="736" output_port_id="736" />
+		<IR name="736" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_134" output_port_id="735" />
+		<IR name="Conv_134" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_136" output_port_id="525" />
+		<IR name="Mul_136" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_137" output_port_id="738" />
+		<IR name="Conv_137" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_139" output_port_id="529" />
+		<IR name="Mul_139" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_140" output_port_id="530" />
+		<IR name="ReduceMean_140" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.4.1.se.conv_reduce.weight" output_port_id="blocks.4.1.se.conv_reduce.weight" />
+		<IR name="blocks.4.1.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_141" output_port_id="531" />
+		<IR name="Conv_141" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_143" output_port_id="533" />
+		<IR name="Mul_143" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.4.1.se.conv_expand.weight" output_port_id="blocks.4.1.se.conv_expand.weight" />
+		<IR name="blocks.4.1.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_144" output_port_id="534" />
+		<IR name="Conv_144" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_145" output_port_id="535" />
+		<IR name="Sigmoid_145" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_146" output_port_id="536" />
+		<IR name="Mul_146" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="742" output_port_id="742" />
+		<IR name="742" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_147" output_port_id="741" />
+		<IR name="Conv_147" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_148" output_port_id="539" />
+		<IR name="Add_148" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="745" output_port_id="745" />
+		<IR name="745" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_149" output_port_id="744" />
+		<IR name="Conv_149" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_151" output_port_id="543" />
+		<IR name="Mul_151" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_152" output_port_id="747" />
+		<IR name="Conv_152" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_154" output_port_id="547" />
+		<IR name="Mul_154" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_155" output_port_id="548" />
+		<IR name="ReduceMean_155" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.4.2.se.conv_reduce.weight" output_port_id="blocks.4.2.se.conv_reduce.weight" />
+		<IR name="blocks.4.2.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_156" output_port_id="549" />
+		<IR name="Conv_156" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_158" output_port_id="551" />
+		<IR name="Mul_158" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.4.2.se.conv_expand.weight" output_port_id="blocks.4.2.se.conv_expand.weight" />
+		<IR name="blocks.4.2.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_159" output_port_id="552" />
+		<IR name="Conv_159" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_160" output_port_id="553" />
+		<IR name="Sigmoid_160" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_161" output_port_id="554" />
+		<IR name="Mul_161" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="751" output_port_id="751" />
+		<IR name="751" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_162" output_port_id="750" />
+		<IR name="Conv_162" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_163" output_port_id="557" />
+		<IR name="Add_163" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="754" output_port_id="754" />
+		<IR name="754" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_164" output_port_id="753" />
+		<IR name="Conv_164" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_166" output_port_id="561" />
+		<IR name="Mul_166" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_168" output_port_id="756" />
+		<IR name="Conv_168" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_170" output_port_id="566" />
+		<IR name="Mul_170" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_171" output_port_id="567" />
+		<IR name="ReduceMean_171" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.5.0.se.conv_reduce.weight" output_port_id="blocks.5.0.se.conv_reduce.weight" />
+		<IR name="blocks.5.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_172" output_port_id="568" />
+		<IR name="Conv_172" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_174" output_port_id="570" />
+		<IR name="Mul_174" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.5.0.se.conv_expand.weight" output_port_id="blocks.5.0.se.conv_expand.weight" />
+		<IR name="blocks.5.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_175" output_port_id="571" />
+		<IR name="Conv_175" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_176" output_port_id="572" />
+		<IR name="Sigmoid_176" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_177" output_port_id="573" />
+		<IR name="Mul_177" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="760" output_port_id="760" />
+		<IR name="760" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_178" output_port_id="759" />
+		<IR name="Conv_178" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="763" output_port_id="763" />
+		<IR name="763" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_179" output_port_id="762" />
+		<IR name="Conv_179" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_181" output_port_id="579" />
+		<IR name="Mul_181" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_182" output_port_id="765" />
+		<IR name="Conv_182" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_184" output_port_id="583" />
+		<IR name="Mul_184" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_185" output_port_id="584" />
+		<IR name="ReduceMean_185" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.5.1.se.conv_reduce.weight" output_port_id="blocks.5.1.se.conv_reduce.weight" />
+		<IR name="blocks.5.1.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_186" output_port_id="585" />
+		<IR name="Conv_186" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_188" output_port_id="587" />
+		<IR name="Mul_188" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.5.1.se.conv_expand.weight" output_port_id="blocks.5.1.se.conv_expand.weight" />
+		<IR name="blocks.5.1.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_189" output_port_id="588" />
+		<IR name="Conv_189" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_190" output_port_id="589" />
+		<IR name="Sigmoid_190" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_191" output_port_id="590" />
+		<IR name="Mul_191" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="769" output_port_id="769" />
+		<IR name="769" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_192" output_port_id="768" />
+		<IR name="Conv_192" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_193" output_port_id="593" />
+		<IR name="Add_193" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="772" output_port_id="772" />
+		<IR name="772" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_194" output_port_id="771" />
+		<IR name="Conv_194" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_196" output_port_id="597" />
+		<IR name="Mul_196" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_197" output_port_id="774" />
+		<IR name="Conv_197" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_199" output_port_id="601" />
+		<IR name="Mul_199" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_200" output_port_id="602" />
+		<IR name="ReduceMean_200" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.5.2.se.conv_reduce.weight" output_port_id="blocks.5.2.se.conv_reduce.weight" />
+		<IR name="blocks.5.2.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_201" output_port_id="603" />
+		<IR name="Conv_201" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_203" output_port_id="605" />
+		<IR name="Mul_203" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.5.2.se.conv_expand.weight" output_port_id="blocks.5.2.se.conv_expand.weight" />
+		<IR name="blocks.5.2.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_204" output_port_id="606" />
+		<IR name="Conv_204" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_205" output_port_id="607" />
+		<IR name="Sigmoid_205" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_206" output_port_id="608" />
+		<IR name="Mul_206" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="778" output_port_id="778" />
+		<IR name="778" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_207" output_port_id="777" />
+		<IR name="Conv_207" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_208" output_port_id="611" />
+		<IR name="Add_208" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="781" output_port_id="781" />
+		<IR name="781" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_209" output_port_id="780" />
+		<IR name="Conv_209" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_211" output_port_id="615" />
+		<IR name="Mul_211" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_212" output_port_id="783" />
+		<IR name="Conv_212" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_214" output_port_id="619" />
+		<IR name="Mul_214" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_215" output_port_id="620" />
+		<IR name="ReduceMean_215" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.5.3.se.conv_reduce.weight" output_port_id="blocks.5.3.se.conv_reduce.weight" />
+		<IR name="blocks.5.3.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_216" output_port_id="621" />
+		<IR name="Conv_216" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_218" output_port_id="623" />
+		<IR name="Mul_218" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.5.3.se.conv_expand.weight" output_port_id="blocks.5.3.se.conv_expand.weight" />
+		<IR name="blocks.5.3.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_219" output_port_id="624" />
+		<IR name="Conv_219" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_220" output_port_id="625" />
+		<IR name="Sigmoid_220" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_221" output_port_id="626" />
+		<IR name="Mul_221" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="787" output_port_id="787" />
+		<IR name="787" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_222" output_port_id="786" />
+		<IR name="Conv_222" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_223" output_port_id="629" />
+		<IR name="Add_223" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="790" output_port_id="790" />
+		<IR name="790" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_224" output_port_id="789" />
+		<IR name="Conv_224" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_226" output_port_id="633" />
+		<IR name="Mul_226" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_227" output_port_id="792" />
+		<IR name="Conv_227" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_229" output_port_id="637" />
+		<IR name="Mul_229" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ReduceMean_230" output_port_id="638" />
+		<IR name="ReduceMean_230" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="blocks.6.0.se.conv_reduce.weight" output_port_id="blocks.6.0.se.conv_reduce.weight" />
+		<IR name="blocks.6.0.se.conv_reduce.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_231" output_port_id="639" />
+		<IR name="Conv_231" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_233" output_port_id="641" />
+		<IR name="Mul_233" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="blocks.6.0.se.conv_expand.weight" output_port_id="blocks.6.0.se.conv_expand.weight" />
+		<IR name="blocks.6.0.se.conv_expand.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_234" output_port_id="642" />
+		<IR name="Conv_234" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_235" output_port_id="643" />
+		<IR name="Sigmoid_235" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_236" output_port_id="644" />
+		<IR name="Mul_236" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="796" output_port_id="796" />
+		<IR name="796" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_237" output_port_id="795" />
+		<IR name="Conv_237" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="799" output_port_id="799" />
+		<IR name="799" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv_238" output_port_id="798" />
+		<IR name="Conv_238" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_240" output_port_id="650" />
+		<IR name="Mul_240" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool_241" output_port_id="651" />
+		<IR name="GlobalAveragePool_241" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Flatten_242" output_port_id="652" />
+		<IR name="Flatten_242" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="classifier.weight" output_port_id="classifier.weight" />
+		<IR name="classifier.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="output" output_port_id="output" />
+		<IR name="output" output_port_id="2" />
+	</map>
+</mapping>
